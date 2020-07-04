@@ -222,7 +222,7 @@ const Featured = ({ data }) => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover } = frontmatter;
+            const { external, title, cover } = frontmatter;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -242,38 +242,37 @@ const Featured = ({ data }) => {
                     )}
                   </StyledProjectName>
                   <StyledDescription dangerouslySetInnerHTML={{ __html: html }} />
-                  {tech && (
-                    <StyledTechList>
-                      {tech.map((tech, i) => (
-                        <li key={i}>{tech}</li>
-                      ))}
-                    </StyledTechList>
-                  )}
-                  <StyledLinkWrapper>
-                    {github && (
-                      <a
-                        href={github}
-                        target="_blank"
-                        rel="nofollow noopener noreferrer"
-                        aria-label="GitHub Link">
-                        <FormattedIcon name="GitHub" />
-                      </a>
-                    )}
-                    {external && (
-                      <a
-                        href={external}
-                        target="_blank"
-                        rel="nofollow noopener noreferrer"
-                        aria-label="External Link">
-                        <FormattedIcon name="External" />
-                      </a>
-                    )}
-                  </StyledLinkWrapper>
+                  {/*{tech && (*/}
+                  {/*  <StyledTechList>*/}
+                  {/*    {tech.map((tech, i) => (*/}
+                  {/*      <li key={i}>{tech}</li>*/}
+                  {/*    ))}*/}
+                  {/*  </StyledTechList>*/}
+                  {/*)}*/}
+                  {/*<StyledLinkWrapper>*/}
+                  {/*  {github && (*/}
+                  {/*    <a*/}
+                  {/*      href={github}*/}
+                  {/*      target="_blank"*/}
+                  {/*      rel="nofollow noopener noreferrer"*/}
+                  {/*      aria-label="GitHub Link">*/}
+                  {/*      <FormattedIcon name="GitHub" />*/}
+                  {/*    </a>*/}
+                  {/*  )}*/}
+                  {/*  {external && (*/}
+                  {/*    <a*/}
+                  {/*      href={external}*/}
+                  {/*      target="_blank"*/}
+                  {/*      rel="nofollow noopener noreferrer"*/}
+                  {/*      aria-label="External Link">*/}
+                  {/*      <FormattedIcon name="External" />*/}
+                  {/*    </a>*/}
+                  {/*  )}*/}
+                  {/*</StyledLinkWrapper>*/}
                 </StyledContent>
 
                 <StyledImgContainer
-                  href={external ? external : github ? github : '#'}
-                  target="_blank"
+                  target="_blank"s
                   rel="nofollow noopener noreferrer">
                   <StyledFeaturedImg fluid={cover.childImageSharp.fluid} alt={title} />
                 </StyledImgContainer>
