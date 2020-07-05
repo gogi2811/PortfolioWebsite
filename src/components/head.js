@@ -6,7 +6,6 @@ import favicon from '@images/favicons/favicon.ico';
 // import ogImage from '@images/og.png';
 import appleIcon57x57 from '@images/favicons/apple-icon-57x57.png';
 import appleIcon60x60 from '@images/favicons/apple-icon-60x60.png';
-import appleIcon72x72 from '@images/favicons/apple-icon-72x72.png';
 import appleIcon76x76 from '@images/favicons/apple-icon-76x76.png';
 import appleIcon114x114 from '@images/favicons/apple-icon-114x114.png';
 import appleIcon120x120 from '@images/favicons/apple-icon-120x120.png';
@@ -55,7 +54,6 @@ const Head = ({ metadata }) => (
 
     <link rel="apple-touch-icon" sizes="57x57" href={appleIcon57x57} />
     <link rel="apple-touch-icon" sizes="60x60" href={appleIcon60x60} />
-    <link rel="apple-touch-icon" sizes="72x72" href={appleIcon72x72} />
     <link rel="apple-touch-icon" sizes="76x76" href={appleIcon76x76} />
     <link rel="apple-touch-icon" sizes="114x114" href={appleIcon114x114} />
     <link rel="apple-touch-icon" sizes="120x120" href={appleIcon120x120} />
