@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Gaurav Lotekar | Software Engineer',
   siteDescription:
-    'Gaurav Lotekar is a software engineer based in Pune,  who specializes in  designing & building Data | DevOps | Backend platforms , applications, and everything in between.',
+    'Gaurav Lotekar is a software engineer based in Pune India,  who specializes in  designing & building Data | DevOps | Backend platforms , applications, and everything in between.',
   siteKeywords:
     'Gaurav Lotekar, Gaurav, Lotekar, gogi2811, software engineer, Data engineer, DevOps Engineer, scripting, C-DAC',
   siteUrl: 'https://gauravnlotekar.com',
