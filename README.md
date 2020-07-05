@@ -2,7 +2,7 @@
   <img alt="Logo" src="https://raw.githubusercontent.com/gogi2811/PortfolioWebsite/master/src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  gauravnlotekar.com
+  gauravnlotekar.online
 </h1>
 <p align="center">
   The first iteration of <a href="https://gauravnlotekar.online" target="_blank">gauravnlotekar.online</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
